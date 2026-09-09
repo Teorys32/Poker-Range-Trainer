@@ -1,0 +1,284 @@
+Oui. Si on transforme ta V1 en vraie **V2 d’entraînement tournoi**, il y a encore quelques gros morceaux à ajouter pour que ça devienne vraiment intéressant.
+
+### Ce que je mettrais dans la V2
+
+**1. Préflop vraiment structuré**
+
+* 6-max / 9-max
+* 10 / 15 / 20 / 25 / 30 / 40 / 50 / 75 / 100 BB
+* Positions correctes selon la table
+* Open / Fold
+* sizing d’open : 2x, 2,2x, 2,5x, etc.
+* BB vs open : fold / call / 3-bet
+* SB vs open
+* BTN vs CO/HJ…
+* situations de **resteal**
+
+**2. Les ranges doivent être visibles après la réponse**
+
+Par exemple :
+
+> BTN — 40 BB
+> Ta main : A♠7♠
+> Décision : OPEN
+
+Puis après ta réponse :
+
+> **A7s : OPEN ~100%**
+> Range BTN :
+> 22+ / A2s+ / K5s+ / Q7s+ / J8s+ / T8s+ / 98s…
+>
+> 🟢 Ta décision : correcte
+
+Ça permettrait de **mémoriser les ranges**, pas seulement de répondre à des questions.
+
+---
+
+### 3. Un vrai système de difficulté
+
+Je ferais :
+
+**🟢 Facile**
+
+* spots très évidents
+* AA, KK, AK, petites paires, mains poubelles…
+
+**🟡 Moyen**
+
+* AJo, KTs, Q9s, 76s…
+* décisions proches de la frontière de range
+
+**🔴 Difficile**
+
+* mains mixées
+* call parfois / fold parfois
+* 3-bet bluff
+* situations dépendant du stack
+
+Et éventuellement :
+
+**🔥 Mode Challenge**
+
+> 20 décisions sans indication
+> objectif : 80%+
+
+---
+
+### 4. ICM
+
+C'est probablement le **plus gros manque** si tu veux réellement apprendre le tournoi.
+
+Parce qu'une range à **100 BB en début de tournoi** n'est pas la même qu'à :
+
+> 20 BB — 7 joueurs restants — 5 places payées
+
+Je rajouterais ensuite :
+
+* début de tournoi
+* milieu
+* bulle
+* proche FT
+* table finale
+* gros pay jump
+
+Avec des situations du genre :
+
+> **Bulle — 18 BB — BTN**
+> CO shove 18 BB
+> Tu as AJo
+> Call ou Fold ?
+
+Là ton trainer deviendrait vraiment intéressant.
+
+---
+
+### 5. Postflop beaucoup plus complet
+
+Ta V1 mélange actuellement des décisions qui ne correspondent pas toujours à une street précise.
+
+Je ferais réellement :
+
+**Préflop → Flop → Turn → River**
+
+Exemple :
+
+> BTN open 2,2 BB
+> BB call
+>
+> **Flop : A♠ 8♦ 4♣**
+>
+> BB check
+> Tu as K♠Q♠
+>
+> **Check ou Bet ?**
+
+Tu réponds.
+
+Puis :
+
+> **Turn : 7♠**
+> BB check
+>
+> **Check ou Bet ?**
+
+Puis éventuellement river.
+
+Ça devient une **main complète**, plutôt qu'une question isolée.
+
+---
+
+### 6. Les sizings
+
+Très important.
+
+Il ne faut pas seulement demander :
+
+> Bet ou Check ?
+
+Mais :
+
+> **Quel sizing ?**
+
+* 25%
+* 33%
+* 50%
+* 66%
+* 75%
+* 100%
+* All-in
+
+Et expliquer pourquoi.
+
+---
+
+### 7. Ton idée suivante : les probabilités
+
+Et là je suis complètement d'accord avec toi.
+
+Je ferais même un **4e onglet séparé : "Probabilités"**.
+
+Avec des exercices rapides.
+
+Par exemple :
+
+> Tu as A♠K♠
+> Flop : 7♠ 2♠ Q♦
+>
+> Quelle est ta probabilité de toucher une couleur d'ici la river ?
+
+Tu réponds :
+
+**A. 9%**
+**B. 19%**
+**C. 35%**
+**D. 42%**
+
+Puis explication :
+
+> Il reste **9 piques** dans les 47 cartes inconnues.
+>
+> Probabilité de toucher au moins un pique turn ou river :
+> **≈ 35%**
+
+Et on ferait pareil pour :
+
+* couleur
+* quinte
+* brelan
+* carré
+* full
+* paire
+* deux paires
+* outs
+* **règle du ×2 / ×4**
+* pot odds
+* équité nécessaire pour call
+
+---
+
+### 8. Et surtout : apprendre les outs
+
+Je pense que c'est même **plus important que les pourcentages directement**.
+
+Exemple :
+
+> Tu as A♠K♠
+> Flop : Q♠ 7♠ 2♦
+
+Le trainer demande :
+
+**Combien d'outs pour faire couleur ?**
+
+Tu réponds :
+
+> **9**
+
+Puis :
+
+> **Quelle chance au turn ?**
+
+≈ **19%**
+
+Puis :
+
+> **Quelle chance d'ici la river ?**
+
+≈ **35%**
+
+Ensuite on passe à :
+
+> Tu as 8♣8♦
+> Flop : K♠8♥2♣
+> Combien d'outs pour faire full/carré selon la situation ?
+
+Ça permettrait de construire progressivement ton intuition mathématique.
+
+---
+
+## Donc je verrais finalement le trainer comme ça
+
+**🏠 ACCUEIL**
+
+**Préflop**
+
+* Open
+* Défense
+* 3-bet
+* 4-bet
+* Push/Fold
+
+**Postflop**
+
+* Flop
+* Turn
+* River
+* Sizings
+
+**Maths 🧮**
+
+* Outs
+* Probabilités
+* Pot odds
+* Équité
+* Règle ×2 / ×4
+
+**Tournoi 🏆**
+
+* ICM
+* Bulle
+* Pay jumps
+* Short stack
+* Final table
+
+**Stats 📊**
+
+* % global
+* Préflop
+* Postflop
+* Maths
+* erreurs récurrentes
+* meilleure série
+
+Et surtout, je garderais **tout dans un seul HTML**, sans serveur ni installation, pour que tu puisses l'ouvrir directement sur ton iPhone ou ordinateur.
+
+À mon avis, **c'est cette structure-là qui vaut le coup** plutôt que de simplement gonfler ta V1 avec davantage de mains aléatoires.

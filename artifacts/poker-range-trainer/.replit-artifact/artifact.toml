@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Poker Range Trainer"
+description = "Un trainer poker offline pour pratiquer les décisions préflop et postflop, suivre ses statistiques et réviser ses erreurs depuis un téléphone ou un ordinateur."
+version = "1.0.0"
+id = "artifacts/poker-range-trainer"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20869
+
+[services.development]
+run = "pnpm --filter @workspace/poker-range-trainer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/poker-range-trainer", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/poker-range-trainer/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20869"
+BASE_PATH = "/"
